@@ -1,0 +1,224 @@
+/*Start Donation-requests*/
+
+.Donation-requests {
+    background-color: #fbfbfb
+}
+
+.Donation-requests h2 {
+    position: relative;
+    font-weight: 600;
+    color: #b2363e
+}
+
+.Donation-requests h2::before {
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    height: 2px;
+    width: 130px;
+    background-color: #b3191e;
+}
+
+.form-select {
+    padding: 12px 15px 12px 0;
+    border-radius: 30px;
+    margin: auto;
+}
+
+select option {
+    color: #000000;
+}
+
+select:invalid,
+select option[value=""] {
+    color: #999999;
+    font-weight: 600;
+}
+
+.mySrarch {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #FFF;
+    border: 1px solid #d6d6d6;
+}
+
+.Donation-requests .container .request-info .don-details {
+    border-top-right-radius: 77px;
+    border-bottom-right-radius: 77px;
+    background: #FFF;
+    margin: 0rem 2rem;
+}
+
+.Donation-requests .container .request-info .don-details .blood-type {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    font-size: 45px;
+    font-weight: 700;
+    background-color: #f1f1f1;
+    justify-content: center;
+}
+
+.Donation-requests .container .request-info .don-details h4 {
+    padding: .8rem 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #636363;
+    font-weight: 600;
+}
+
+.Donation-requests .container .request-info .don-details h4 .title-case {
+    padding-right: 2rem;
+}
+
+.Donation-requests .container .request-info .don-details .btn {
+    font-weight: 700;
+    display: block;
+    padding: 1rem 0;
+    font-size: 15px;
+    background: #f1f1f1;
+    color: #464646;
+    -webkit-box-shadow: 0 1px 2px #7d7d7dab;
+    -webkit-box-shadow: 0 1px 2px #7d7d7dab;
+    -moz-box-shadow: 0 1px 2px #7d7d7dab;
+    -o-box-shadow: 0 1px 2px #7d7d7dab;
+    box-shadow: 0 1px 2px #7d7d7dab;
+}
+
+.page-link {
+    font-size: 15px;
+    padding: 5px 14px;
+    color: #2d3e50;
+    font-weight: 600;
+}
+
+.page-item.active .page-link {
+    background-color: #2d3e50;
+    border: 0
+}
+
+.page-link:focus {
+    box-shadow: none;
+}
+
+
+/*media*/
+
+@media screen and (max-width: 400px) {
+    .Donation-requests .container .request-info .don-details {
+        border-top-right-radius: 33px;
+        border-top-left-radius: 33px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .Donation-requests h2 {
+        font-size: 20px
+    }
+    .mySrarch {
+        width: 50px;
+        height: 50px;
+    }
+    .fa-search {
+        font-size: 20px;
+    }
+    .Donation-requests h2::before {
+        width: 100px;
+    }
+    .Donation-requests .container .request-info .don-details .blood-type {
+        margin: auto;
+    }
+    .Donation-requests .container .request-info .don-details .blood-type {
+        width: 80px;
+        height: 80px;
+        font-size: 30px;
+    }
+    .Donation-requests .container .request-info .don-details h4 .title-case {
+        padding-right: 0 !important;
+    }
+    .Donation-requests .container .request-info .don-details .spacing {
+        margin: 1rem 0
+    }
+    .Donation-requests .container .request-info .don-details h4 {
+        font-size: 14px;
+        text-align: center;
+    }
+    .Donation-requests .container .request-info .don-details .btn {
+        padding: .6rem 0;
+    }
+}
+
+@media screen and (min-width:401px) and (max-width:600px) {
+    .Donation-requests .container .request-info .don-details {
+        border-top-right-radius: 33px;
+        border-top-left-radius: 33px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .Donation-requests .don-request h2 {
+        font-size: 20px;
+    }
+    .Donation-requests h2::before {
+        width: 125px;
+    }
+    .Donation-requests .container .request-info .don-details .blood-type {
+        margin: auto;
+    }
+    .Donation-requests .container .request-info .don-details .blood-type {
+        width: 90px;
+        height: 90px;
+        font-size: 30px;
+    }
+    .Donation-requests .container .request-info .don-details .spacing {
+        margin: 1rem 0
+    }
+    .Donation-requests .container .request-info .don-details h4 {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:768px) {
+    .Donation-requests .container .request-info .don-details {
+        border-top-right-radius: 33px;
+        border-top-left-radius: 33px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .Donation-requests h2 {
+        font-size: 22px;
+    }
+    .Donation-requests h2::before {
+        width: 110px;
+    }
+    .Donation-requests .container .request-info .don-details .blood-type {
+        margin: auto;
+    }
+    .Donation-requests .container .request-info .don-details .blood-type {
+        width: 90px;
+        height: 90px;
+        font-size: 30px;
+    }
+    .Donation-requests .container .request-info .don-details .spacing {
+        margin: 1rem 0
+    }
+    .Donation-requests .container .request-info .don-details h4 {
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    .Donation-requests .container .request-info .don-details .blood-type {
+        width: 100px;
+        height: 100px;
+        font-size: 40px;
+    }
+    .Donation-requests .container .request-info .don-details h4 {
+        font-size: 15px;
+        padding: 5px 0;
+    }
+}
+
+
+/*End Donation-requests*/

@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assetes/css/vendor/jquery.datetimepicker.min.css">
+    <link rel="stylesheet" href="../assetes/css/vendor/all.min.css">
+    <link rel="stylesheet" href="../assetes/css/style2.css">
+    <link rel="stylesheet" href="../assetes/css/substyle.css">
+    <link rel="stylesheet" href="../assetes/css/style-en.css">
+    <title>Blood bank website</title>
+</head>
+
+<body>
+
+    <!--Start upper nav-->
+    <div class="upper-nav py-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-2 col-5 lang  align-self-center">
+                    <a href="index2-en.html" class="en">EN</a>
+                    <a href="../index2.html" class="color-red ">عربي </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-5 col-7 icon text-center align-self-center">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"> <i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-5 contact align-self-center text-end">
+                    <a href="index2-en.html" class="pr-4">create new account</a>
+                    <a href="index3-en.html" class=" phone ">log in</i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End upper nav-->
+    <!--Start main navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light text-center">
+        <div class="container">
+            <a class="navbar-brand" href="index-en.html index-en.html"><img class="w-100 w-md-70" src="../assetes/imgs/logo-ltr.png" alt="logo-navbar"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav align-items-lg-center me-auto  mb-lg-0">
+                    <li class="nav-item col-md"><a class="nav-link color-red " href="index-en.html">main</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index5-en.html">about</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">articles</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index7-en.html">donation requests</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index5-en.html">who are we</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index6-en.html">call us</a></li>
+                </ul>
+                <a class=" btn-login rounded" href="index7-en.html"><img src="../assetes/imgs/blood-donation.png " class="req-icon" alt="icon-blood">donation request</a>
+            </div>
+        </div>
+    </nav>
+    <!--End main navbar-->
+
+    <!--Start creat acount-->
+    <div class="creat-acount shadow py-5 ">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb nav-bread border">
+                    <li class="breadcrumb-item"><a href="index-en.html">Main</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Creat New Account</li>
+                </ol>
+            </nav>
+            <div class="page-login border py-3">
+                <form action="?">
+                    <input type="text" name="name" class="form-control" placeholder="Name">
+                    <input type="email" name="email" class="form-control" placeholder="E-Mail">
+                    <input class="form-control data datetime" placeholder="Date Of Birth">
+                    <select required class="form-select">
+                        <option value="" selected disabled hidden>Choose Blood Type</option>
+                        <option value="1 ">O+</option>
+                        <option value="2 ">O-</option>
+                        <option value="3 ">A+</option>
+                        <option value="4 ">A-</option>
+                        <option value="5 ">B+</option>
+                        <option value="6 ">B-</option>
+                        <option value="7 ">AB+</option>
+                        <option value="8 ">AB-</option>
+                    </select>
+                    <select required class="form-select" id="governorates">
+                        <option value  selected disabled hidden>Choose Governorate</option>
+                        <option value="1 ">Dakahlia</option>
+                        <option value="2 ">Gharbiya </option>
+                        <option value="3 ">Menoufia</option>
+                        <option value="4 ">Kafr El Sheikh </option>
+                        <option value="5 ">Sohag</option>
+                    </select>
+                    <select required class="form-select" id="cities">
+                        <option value=""  selected disabled hidden>Choose City</option>
+                    </select>
+                    <input type="tel" name="phone" class="form-control" placeholder="Telephone Number">
+                    <input class="form-control data datetime" placeholder="Last Date For Donation">
+                    <input type="password" class="form-control" placeholder="Password">
+                    <input type="password" class="form-control" placeholder="Confirm Password">
+                    <button class="btn-creat rounded" type="submit">Creat</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--End creat acount-->
+    <!--Start  footer-->
+    <footer class="pt-5 ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-5 col-sm-6 define-app ">
+                    <a href="# "><img src="../assetes/imgs/logo-ltr.png " alt=" "></a>
+                    <h3 class="color-red ">Blood Bank</h3>
+                    <p>The blood bank is an application that aims to help those in need of blood transfusions and emergency cases, and also aims to facilitate the donor</p>
+                </div>
+                <div class="col-md-4 col-sm-6 main-linkes align-self-xs-center ">
+                    <ul class="list-unstyled ">
+                        <li class="nav-item col-md"><a class="nav-link color-red " href="index-en.html">Main</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index5-en.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">articles</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index7-en.html">Donation requests</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index5-en.html">who are we</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index6-en.html">call us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-12 ave-app ">
+                    <h4 class="color-red ">Available on</h4>
+                    <a href="# ">
+                        <img src="../assetes/imgs/google1.png " alt="Google-Play">
+                        <img src="../assetes/imgs/ios1.png " alt="IOS-System">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="copyRight ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-6 align-self-center ">
+                        <p>All rights are save<a href="index-en.html " class="color-red "> Blood bank </a>&copy; 2019</p>
+                    </div>
+                    <div class="col-md-6 icon align-self-center ">
+                        <a href="# "><i class="fab fa-facebook-f "></i></a>
+                        <a href="# "><i class="fab fa-instagram "></i></a>
+                        <a href="# "><i class="fab fa-twitter "></i></a>
+                        <a href="# "><i class="fab fa-whatsapp "></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--End  footer-->
+    <script src="../assetes/js/vendor/jquery.js "></script>
+    <script src="../assetes/js/vendor/jquery.datetimepicker.full.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js " integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW " crossorigin="anonymous "></script>
+    <script>
+        $(".datetime").datetimepicker();
+    </script>
+    <script>
+        $("#governorates").change(function() {
+            // Creat var to call all governorates 
+            var governorateId = $("#governorates").val();
+            console.log(governorateId);
+
+            // To Clear Field Then Add New Select Data
+            $("#cities").empty();
+            var option = '<option value="">Chose City</option>';
+            $("#cities").append(option);
+
+            //Using ajex to send requst to call data
+            $.ajax({
+                url: ('http://cors-anywhere.herokuapp.com/http://ipda3-tech.com/blood-bank/api/v1/cities?governorate_id=' + governorateId),
+                type: 'get',
+                data: {},
+                success: function(result) {
+                    console.log('success');
+
+                    $.each(result.data, function(index, city) {
+                        console.log(city)
+
+                        /*
+                            Firt Solution To Select City
+                            var option = new Option(city.name, city.id)
+                        */
+
+                        //Another Solution To Select City
+                        var option = '<option value="' + city.id + '">' + city.name + '</option>';
+                        $("#cities").append(option);
+                    });
+                },
+                error: function() {
+                    console.log('error');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

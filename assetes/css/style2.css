@@ -1,0 +1,59 @@
+/*Start creat acount*/
+
+.creat-acount {
+    background: #fbfbfb;
+}
+
+.page-login {
+    background-color: #FFF;
+}
+
+.page-login .form-control {
+    width: 70%;
+    padding: 1rem;
+    margin: 1.5rem auto;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #fbfbfb;
+    border: 1px solid #efefef;
+}
+
+.page-login .form-select {
+    width: 70%;
+    margin: 1.5rem auto;
+    background-color: #fbfbfb;
+    border: 1px solid #efefef;
+}
+
+select {
+    border: 0;
+    height: 47px;
+    padding: 0 1rem;
+}
+
+select option {
+    color: #000000;
+    font-size: 14px;
+    background: rgb(246, 247, 255)
+}
+
+select:invalid,
+select option[value=""] {
+    color: #797979fa;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-creat {
+    margin: auto;
+    display: block;
+    background-color: #3ab54a;
+    padding: .6rem 6rem;
+    font-size: 17px;
+    color: #FFF;
+    border: 0;
+    box-shadow: 0px 1px 3px #1e621e;
+}
+
+
+/*media*/

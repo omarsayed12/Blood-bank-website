@@ -1,0 +1,87 @@
+/*Start Donation-requests*/
+
+.requests-info {
+    background-color: #fbfbfb
+}
+
+.requests-info .info {
+    background: #FFF;
+}
+
+.requests-info .req-dom {
+    display: flex;
+}
+
+.requests-info .req-dom span {
+    display: flex;
+    align-items: center;
+    padding-right: .8rem;
+    min-height: 50px;
+    border: 1px solid rgb(241 240 240);
+    font-size: 16px;
+    font-weight: 600;
+    color: #4a4a4a;
+}
+
+.requests-info .req-dom .title {
+    min-width: 200px;
+    background: #f4f4f4
+}
+
+.requests-info .req-dom .name {
+    background: #fbfbfb;
+    width: 100%;
+}
+
+.requests-info .req-dom .title-hospital {
+    min-width: 200px;
+    background: #f4f4f4
+}
+
+.requests-info .req-dom .name-hospital {
+    background: #fbfbfb;
+    width: 100%
+}
+
+.requests-info .info p {
+    font-size: 18px;
+    line-height: 2;
+    color: #585858;
+    padding: .5rem 1rem;
+}
+
+
+/*media*/
+
+@media screen and (max-width: 400px) {
+    .requests-info .req-dom span {
+        font-size: 14px;
+    }
+    .requests-info .info p {
+        font-size: 16px;
+    }
+    .requests-info .req-dom .title {
+        min-width: 150px;
+    }
+}
+
+@media screen and (min-width:401px) and (max-width:600px) {
+    .requests-info .req-dom span {
+        font-size: 14px;
+    }
+    .requests-info .info p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:768px) {
+    .requests-info .req-dom span {
+        font-size: 15px;
+    }
+    .requests-info .info p {
+        font-size: 17px;
+    }
+}
+
+
+/*End Donation-requests*/

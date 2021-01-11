@@ -1,0 +1,132 @@
+body {
+    background: #fbfbfb
+}
+
+
+/*Start artical details*/
+
+.articals-detail h2 {
+    padding: 1.4rem 2rem;
+    background: #2d3e50;
+    color: #FFF
+}
+
+.articals-detail p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #777;
+    line-height: 2;
+    padding: 1rem;
+    background: #FFF
+}
+
+
+/*media*/
+
+@media screen and (max-width:600px) {
+    .articals-detail h2 {
+        font-size: 18px;
+        padding: 1.3rem 1rem;
+        text-align: center
+    }
+    .articals-detail p {
+        padding: 1rem;
+        font-size: 15px
+    }
+}
+
+
+/*End artical details*/
+
+
+/*Start articles*/
+
+.articles h2 {
+    position: relative;
+    margin: 0 34px
+}
+
+.articles h2::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 174px;
+    background-color: #b3191e
+}
+
+.articles .card {
+    max-width: 85%;
+}
+
+.articles .card .card-body h4 {
+    font-weight: 600;
+    padding: .3rem 0
+}
+
+.articles .card .card-body p {
+    font-size: 15px;
+    line-height: 1.8
+}
+
+.articles .card .card-body .btn {
+    background-color: #2d3e50;
+    border: 0;
+    padding: .6rem 3rem;
+    font-size: 15px
+}
+
+.articles .owl-nav {
+    position: absolute;
+    top: -72px;
+    left: 30px
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    font-size: 40px;
+    color: #b7b7b7
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev:focus {
+    outline: 0
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    margin-right: 2rem;
+    color: #757575
+}
+
+
+/*media*/
+
+@media screen and (max-width:400px) {
+    .articles h2 {
+        font-size: 20px;
+    }
+    .articles h2::before {
+        width: 132px
+    }
+}
+
+@media screen and (min-width:401px) and (max-width:600px) {
+    .articles h2 {
+        font-size: 20px;
+    }
+    .articles h2::before {
+        width: 132px
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:768px) {
+    .articles h2 {
+        font-size: 20px;
+    }
+    .articles h2::before {
+        width: 132px
+    }
+}
+
+
+/*End articles*/

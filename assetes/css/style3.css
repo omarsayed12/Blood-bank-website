@@ -1,0 +1,86 @@
+    /*Start creat login*/
+    
+    .creat-acount,
+    .page-login {
+        background-color: #fbfbfb;
+    }
+    
+    .page-login .form-control {
+        width: 70%;
+        padding: 1rem;
+        margin: 1.5rem auto;
+        font-size: 14px;
+        font-weight: 600;
+        background-color: #FFF;
+        border: 1px solid #efefef;
+    }
+    
+    .form-check {
+        width: 31%;
+        margin: auto;
+    }
+    
+    label {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .remeber-pass {
+        width: 66%;
+        text-align: end;
+    }
+    
+    .remeber-pass img {
+        max-width: 14px;
+        padding-bottom: 4px;
+    }
+    
+    .remeber-pass .remeber {
+        font-size: 14px;
+        font-weight: 600;
+        color: inherit;
+    }
+    
+    .btn-creat1,
+    .btn-creat2 {
+        display: inline-block;
+        width: 200px;
+        padding: .7rem 0;
+        margin: 2rem 0;
+        background-color: #3ab54a;
+        font-size: 16px;
+        border: 0;
+        text-transform: capitalize;
+    }
+    
+    .btn-creat2 {
+        margin-right: 3rem;
+        background-color: #2d3e50;
+    }
+    /*media*/
+    
+    @media screen and (max-width:400px) {
+        .form-check {
+            width: 0%;
+        }
+        .remeber-pass {
+            width: 100%;
+            text-align: center;
+        }
+        .btn-creat2 {
+            margin: 0;
+        }
+    }
+    
+    @media screen and (min-width:401px) and (max-width:600px) {
+        .form-check {
+            width: 0%;
+        }
+        .remeber-pass {
+            width: 80%;
+        }
+        .btn-creat2 {
+            margin: 0;
+        }
+    }
+    /*End creat login*/

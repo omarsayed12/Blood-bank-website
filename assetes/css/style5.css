@@ -1,0 +1,43 @@
+/*Start who-are-we*/
+
+.who-are-we,
+.who-are-we .about-we {
+    background: #fbfbfb
+}
+
+.who-are-we .about-we p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #777;
+    line-height: 1.9;
+    padding: 1rem 3rem;
+    background: #FFF;
+}
+
+
+/*media*/
+
+@media screen and (max-width:400px) {
+    .who-are-we .about-we img {
+        max-width: 50%;
+    }
+    .who-are-we .about-we p {
+        font-size: 15px;
+        padding: .5rem;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:401px) and (max-width:600px) {
+    .who-are-we .about-we img {
+        max-width: 50%;
+    }
+    .who-are-we .about-we p {
+        font-size: 15px;
+        padding: .5rem;
+        text-align: center;
+    }
+}
+
+
+/*End who-are-we */

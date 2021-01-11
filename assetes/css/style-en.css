@@ -1,0 +1,265 @@
+        /*Upper Nav*/
+        
+        .upper-nav .contact .phone {
+            padding-left: 0;
+            padding-right: 5px;
+        }
+        /*Main Navbar*/
+        
+        .navbar .navbar-collapse .navbar-nav {
+            text-align: start;
+        }
+        
+        .navbar .navbar-collapse .navbar-nav .nav-item {
+            text-transform: capitalize;
+            padding: 0 3px;
+        }
+        
+        .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+            font-size: 15px;
+        }
+        
+        .navbar .navbar-collapse .navbar-nav .nav-item:first-child::before {
+            top: 60px;
+            left: 9px;
+            right: 0;
+        }
+        
+        .navbar .navbar-collapse .navbar-nav .nav-item::before {
+            height: 0;
+            border-right: 0;
+        }
+        
+        .navbar .navbar-collapse .navbar-nav .nav-item::after {
+            content: "";
+            position: absolute;
+            top: 0px;
+            right: 1px;
+            height: 37px;
+            padding: 0 .2rem;
+            border-right: 1px solid rgb(209, 209, 209);
+        }
+        
+        .navbar .navbar-collapse .navbar-nav .nav-item:last-child:after {
+            border-right: 0;
+            height: 0;
+        }
+        
+        .navbar .navbar-collapse .creat-acount {
+            font-size: 15px;
+            font-weight: 600;
+        }
+        
+        .navbar .navbar-collapse .creat-acount:before {
+            right: 15px;
+            width: 114px;
+        }
+        
+        .navbar .navbar-collapse .btn-login {
+            text-transform: capitalize;
+            font-size: 15px;
+            padding: 0 0 0 0;
+            padding: .6rem 1.7rem 0.6rem .7em;
+        }
+        
+        .navbar .navbar-collapse .access {
+            padding: 0 0 0 0;
+            font-size: 15px;
+            padding: .5rem 1.7rem
+        }
+        
+        .navbar .container .req-icon {
+            margin-left: 0;
+            margin-right: 1rem;
+        }
+        /*Section Articales*/
+        
+        .articles .owl-nav {
+            top: -74px;
+            right: 30px;
+            left: 0;
+            text-align: right;
+        }
+        /*Div Heading-Details */
+        /*Section (Donation and Don) Request*/
+        
+        .heading-details {
+            background: url("../imgs/about2-ltr.png") center/cover no-repeat;
+        }
+        
+        .don-request .line::before,
+        .Donation-requests h2::before {
+            width: 205px
+        }
+        
+        .don-request .container .request-info .don-details,
+        .Donation-requests .container .request-info .don-details {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            border-top-left-radius: 77px;
+            border-bottom-left-radius: 77px;
+            margin: 0rem 2rem;
+        }
+        
+        .don-request .container .request-info .don-details h4 .title-case,
+        .Donation-requests .container .request-info .don-details h4 .title-case {
+            padding-right: 0;
+            padding-left: 10px;
+        }
+        
+        .form-select {
+            padding: 0px 0px 0 12px;
+            width: 100%;
+            margin: auto;
+        }
+        
+        .page-login .form-select {
+            display: block;
+        }
+        
+        .page-login .form-control,
+        select {
+            height: 45px;
+        }
+        
+        .creat-acount .page-login .btn-creat2 {
+            margin-right: 0;
+            margin-left: 3rem;
+        }
+        /*Section Connect*/
+        
+        .connect {
+            background: url("../imgs/call-ltr.jpg")center/cover no-repeat;
+        }
+        
+        .Connect-with-us form textarea {
+            padding-right: 0;
+            padding-left: 1rem;
+        }
+        /*Main Footer*/
+        
+        footer .container .main-linkes ul {
+            padding-right: 0;
+            padding-left: 5rem;
+        }
+        
+        footer .container .main-linkes ul li {
+            text-transform: capitalize;
+        }
+        
+        footer .container .ave-app h4 {
+            padding: 1rem 0;
+        }
+        
+        footer .copyRight .container .icon i {
+            margin-left: 1.7rem;
+            margin-right: 0;
+        }
+        /*General Style*/
+        
+        a:hover {
+            text-decoration: none;
+        }
+        
+        [type=email],
+        [type=number],
+        [type=tel],
+        [type=url] {
+            direction: ltr;
+        }
+        
+        .requests-info .req-dom span {
+            padding-right: 0;
+            padding-left: .8rem;
+        }
+        /*Start Media all index-en pages*/
+        
+        @media screen and (max-width: 400px) {
+            .navbar .navbar-collapse .navbar-nav .nav-item::after {
+                border-right: 0;
+            }
+            footer .container .main-linkes ul {
+                padding: 0
+            }
+            .don-request .line::before {
+                width: 174px!important
+            }
+            .Donation-requests h2::before {
+                width: 160px;
+            }
+            .don-request .container .request-info .don-details h4 .title-case,
+            .Donation-requests .container .request-info .don-details h4 .title-case {
+                padding-left: 2px;
+            }
+            .don-request .container .request-info .don-details,
+            .Donation-requests .container .request-info .don-details {
+                border-top-right-radius: 30px;
+                border-bottom-right-radius: 0;
+                border-top-left-radius: 30px;
+                border-bottom-left-radius: 0;
+                margin: 0rem 2rem;
+            }
+            .btn-creat1,
+            .btn-creat2 {
+                margin: 1rem 0;
+            }
+            .creat-acount .page-login .btn-creat2 {
+                margin: 0;
+            }
+        }
+        
+        @media screen and (min-width:401px) and (max-width:600px) {
+            .navbar .navbar-collapse .navbar-nav .nav-item::after {
+                border-right: 0;
+            }
+            .don-request .line::before {
+                width: 174px!important
+            }
+            .don-request .container .request-info .don-details h4 .title-case,
+            .Donation-requests .container .request-info .don-details h4 .title-case {
+                padding-left: 10px;
+            }
+            .don-request .container .request-info .don-details,
+            .Donation-requests .container .request-info .don-details {
+                border-top-right-radius: 30px;
+                border-bottom-right-radius: 0;
+                border-top-left-radius: 30px;
+                border-bottom-left-radius: 0;
+                margin: 0rem 2rem;
+            }
+            .creat-acount .page-login .btn-creat2 {
+                margin: 0rem;
+            }
+        }
+        
+        @media screen and (min-width:601px) and (max-width: 768px) {
+            .navbar .navbar-collapse .navbar-nav .nav-item::after {
+                border-right: 0;
+            }
+            .don-request .line::before {
+                width: 190px !important;
+            }
+            .don-request .line::before,
+            .Donation-requests h2::before {
+                width: 174px
+            }
+            .don-request .container .request-info .don-details,
+            .Donation-requests .container .request-info .don-details {
+                border-top-right-radius: 30px;
+                border-bottom-right-radius: 0;
+                border-top-left-radius: 30px;
+                border-bottom-left-radius: 0;
+                margin: 0rem 2rem;
+            }
+        }
+        
+        @media screen and (min-width: 769px) and (max-width: 991px) {
+            .navbar .navbar-collapse .navbar-nav .nav-item::after {
+                border-right: 0;
+            }
+            .don-request .container .request-info .don-details h4 .title-case,
+            .Donation-requests .container .request-info .don-details h4 .title-case {
+                padding-left: 5px;
+            }
+        }
+        /*End Media all index-en pages*/

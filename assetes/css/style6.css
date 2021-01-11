@@ -1,0 +1,183 @@
+/*Start Connect-with-us*/
+
+.Connect-with-us {
+    background-color: #fbfbfb;
+}
+
+.Connect-with-us .contact-header h3 {
+    font-weight: 600;
+    color: #FFF;
+    background: #2d3e50;
+    font-size: 20px;
+    padding: 1rem 0;
+}
+
+.Connect-with-us .contact-header img {
+    max-width: 100%;
+    padding: 3rem 0
+}
+
+.Connect-with-us .contact-call .contact-phone span,
+.Connect-with-us .contact-call .contact-fax span,
+.Connect-with-us .contact-call .contact-email span {
+    font-size: 18px;
+    color: #656565;
+    line-height: 2.7;
+}
+
+.Connect-with-us .contact-social h3 {
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+.Connect-with-us .contact-social img {
+    max-width: 47px;
+    margin: .5rem 1rem
+}
+
+.Connect-with-us form input {
+    display: block;
+    width: 98%;
+    padding: 1rem;
+    margin: 1.5rem auto;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+}
+
+.Connect-with-us form textarea {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding-right: 1rem;
+    width: 98%;
+}
+
+.Connect-with-us input[type="submit"] {
+    font-size: 17px;
+    color: #FFF;
+    background: #2d3e50;
+}
+
+
+/*media*/
+
+@media screen and (max-width:400px) {
+    .Connect-with-us .contact-call {
+        text-align: center;
+    }
+    .Connect-with-us .contact-header img {
+        max-width: 45%;
+        padding: 1rem 0;
+    }
+    .Connect-with-us .contact-social {
+        padding: 2rem 0!important;
+    }
+    .Connect-with-us .contact-social h3,
+    .Connect-with-us input[type="submit"] {
+        padding: .7rem 0;
+    }
+    .Connect-with-us .contact-call .contact-phone span,
+    .Connect-with-us .contact-call .contact-fax span,
+    .Connect-with-us .contact-call .contact-email span {
+        font-size: 17px;
+        line-height: 2;
+    }
+    .Connect-with-us .contact-call .contact-email {
+        padding-right: 0 !important;
+    }
+    .Connect-with-us .contact-social img {
+        max-width: 30px;
+        margin: 0.5rem;
+    }
+}
+
+@media screen and (min-width:401px) and (max-width:600px) {
+    .Connect-with-us .contact-call {
+        text-align: center;
+    }
+    .Connect-with-us .contact-header img {
+        max-width: 45%;
+        padding: 1rem 0;
+    }
+    .Connect-with-us .contact-social {
+        padding: 2rem 0!important;
+    }
+    .Connect-with-us .contact-social h3,
+    .Connect-with-us input[type="submit"] {
+        padding: .7rem 0;
+    }
+    .Connect-with-us .contact-call .contact-phone span,
+    .Connect-with-us .contact-call .contact-fax span,
+    .Connect-with-us .contact-call .contact-email span {
+        font-size: 17px;
+        line-height: 2;
+    }
+    .Connect-with-us .contact-call .contact-email {
+        padding-right: 0 !important;
+    }
+    .Connect-with-us .contact-social img {
+        max-width: 30px;
+        margin: 0.5rem;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:768px) {
+    .Connect-with-us .contact-call {
+        text-align: center;
+    }
+    .Connect-with-us .contact-header img {
+        max-width: 45%;
+        padding: 2rem 0;
+    }
+    .Connect-with-us .contact-social {
+        padding: 2rem 0!important;
+    }
+    .Connect-with-us .contact-social h3,
+    .Connect-with-us input[type="submit"] {
+        padding: .7rem 0;
+    }
+    .Connect-with-us .contact-call .contact-phone span,
+    .Connect-with-us .contact-call .contact-fax span,
+    .Connect-with-us .contact-call .contact-email span {
+        font-size: 18px;
+        line-height: 2;
+    }
+    .Connect-with-us .contact-call .contact-email {
+        padding-right: 0 !important;
+    }
+    .Connect-with-us .contact-social img {
+        max-width: 30px;
+        margin: 0.5rem;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    .Connect-with-us .contact-call {
+        text-align: center;
+    }
+    .Connect-with-us .contact-header img {
+        padding: 2rem 0;
+    }
+    .Connect-with-us .contact-social {
+        padding: 2rem 0!important;
+    }
+    .Connect-with-us .contact-social h3,
+    .Connect-with-us input[type="submit"] {
+        font-size: 1.3rem;
+    }
+    .Connect-with-us .contact-call .contact-phone span,
+    .Connect-with-us .contact-call .contact-fax span,
+    .Connect-with-us .contact-call .contact-email span {
+        font-size: 19px;
+        line-height: 3;
+    }
+    .Connect-with-us .contact-call .contact-email {
+        padding-right: 0 !important;
+    }
+    .Connect-with-us .contact-social img {
+        max-width: 40px;
+        margin: 1rem;
+    }
+}
+
+
+/*End Connect-with-us*/
